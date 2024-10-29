@@ -1,4 +1,5 @@
 header {
+    display: flex;
     background-color: #fff;
     font-family: Franklin Gothic, Arial;
     font-size: 14px;
@@ -12,7 +13,7 @@ header {
     text-transform: uppercase;
     align-items: center;
     align-content: center;
-
+    
 }
 
 html {
