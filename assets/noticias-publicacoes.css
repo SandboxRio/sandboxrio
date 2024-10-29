@@ -1,11 +1,14 @@
 #noticias-publicacoes {
-    margin: 2em auto;
+    background-color: #9E72B0; /* Mesma cor de fundo do footer */
+    color: #fff; /* Texto branco para contraste */
+    padding: 2em 0; /* Espaçamento interno na seção */
     text-align: center;
 }
 
 #noticias-publicacoes h2 {
     font-size: 1.5rem;
     margin-bottom: 1em;
+    color: #fff; /* Título em branco */
 }
 
 .itens-publicacoes {
@@ -14,36 +17,12 @@
     gap: 1em;
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap; /* para que se ajuste em telas menores */
+    flex-wrap: wrap; /* Para ajustar em telas menores */
 }
 
 .item {
-    background-color: #f4f4f4;
+    background-color: #fff; /* Fundo branco para contraste */
+    color: #333; /* Cor do texto para legibilidade */
     border: 1px solid #ddd;
     padding: 1em;
-    width: 23%; /* 23% para quatro itens com espaço entre eles */
-    box-sizing: border-box;
-    text-align: left;
-}
-
-.item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5em;
-}
-
-.item p {
-    font-size: 1rem;
-    color: #666;
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .itens-publicacoes {
-        flex-direction: column; /* Empilha os itens em tela pequena */
-        gap: 1em;
-    }
-    
-    .item {
-        width: 100%; /* Cada item ocupa a largura total */
-    }
-}
+    width: 23%; /* Quatro itens lado a lado
