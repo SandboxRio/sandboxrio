@@ -3,8 +3,8 @@ footer {
     font-family: arial, helvetica;
     color: #fff;
     box-sizing: border-box;
-    padding-top: 1em; /* Espaçamento interno para o footer */
-    padding-bottom: 1em;
+    padding-top: 0; /* Espaçamento interno para o footer */
+    padding-bottom: 0;
     position: relative; 
 }
 
@@ -23,9 +23,8 @@ h4 {
     margin: 0.6em 0;
 }
 
-/* Ajuste para garantir que o conteúdo antes do footer tenha espaço suficiente */
 #missao-valores {
-    margin-bottom: 2em; /* Espaço entre a seção e o footer */
+    margin-bottom: 0; /* Espaço entre a seção e o footer */
 }
 
 /* Ajustes para dispositivos móveis */
