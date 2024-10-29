@@ -44,6 +44,7 @@ p {
     font-size: 20px;
     color: grey;
     letter-spacing: 0.05em;
+    text-align: justify;
 }
 #o-que-eh-foto{
     background-image: url("drone.jpeg");
