@@ -33,7 +33,7 @@ html {
 h1{
     top: 30vh;
     left: 40vw;
-    font: normal normal bold 80px/1.4em raleway,sans-serif;
+    font: normal normal bold 50px/1.4em raleway,sans-serif;
     letter-spacing: 1px;
     -webkit-font-smoothing: antialiased;
     margin: 0;
