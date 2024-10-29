@@ -92,7 +92,8 @@ p {
     justify-content: center;
 }
 #div-ciclo-como-funciona img {
-    width: 95vw;
+    width: 1080px;
+    height: auto;
     align-self: center;
     padding: 10vh 0;
 }
