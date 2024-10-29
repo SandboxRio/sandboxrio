@@ -92,6 +92,7 @@ header img {
 
 .dropdown-content {
     display: none;
+    font-color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -102,6 +103,7 @@ header img {
     flex-direction: column;
     position: absolute;
     width: fit-content;
+    font-color: #fff;
 }
 
 .dropdown-content a {
@@ -111,6 +113,7 @@ header img {
 
 .dropdown-link:hover {
     background: #9262a5;
+    font-color: #fff;
 }
 
 
