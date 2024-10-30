@@ -60,10 +60,6 @@ nav a {
     color: #9E72B0; /* Cor padrão do link */
 }
 
-nav a:hover {
-    color: #FFFFFF; /* Cor do texto ao passar o mouse */
-}
-
 header img {
     padding-bottom: 1em;
     padding-left: 2em;
