@@ -91,6 +91,7 @@ header img {
 }
 #menu-hamburger {
     visibility: hidden;
+     font-color: #fff;
 }
 
 .dropdown-content {
@@ -113,6 +114,7 @@ header img {
 .dropdown-content a {
     padding: 1em;
     justify-content: center;
+    font-color: #fff;
 }
 
 .dropdown-link:hover {
@@ -143,15 +145,18 @@ header img {
         height: 40px;
         margin: 20px;
         border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        font-color: #fff;
     }
 
     .active {
         height: calc(100vh - 70px);
         visibility: visible;
+        font-color: #fff;
     }
 
     nav ul{
         height: calc(100vh - 70px);
+        font-color: #fff;
     }
 
     #menu-hamburger {
@@ -161,6 +166,7 @@ header img {
         background:none;
         height: 40px;
         width: 45px;
+        font-color: #fff;
     }
     #menu-hamburger span {
         height: 5px;
@@ -170,8 +176,10 @@ header img {
         margin: 3px;
         box-sizing: border-box;
         cursor: pointer;
+        font-color: #fff;
     }
     .dropdown:hover .dropdown-content  {
         display: none;
+        font-color: #fff;
     }
 }
