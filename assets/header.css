@@ -134,7 +134,10 @@ header img {
         opacity: 1;
         background: #9262a5;
         font-color: #fff;
-        border-radius: 8px;
+        border-radius: 10px;
+        background-color: #8967AA;
+        transition: 0.2s;
+        color: white
     }
     nav li {
         height: 40px;
