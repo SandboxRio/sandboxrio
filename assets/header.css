@@ -28,6 +28,9 @@ html {
 nav a {
     text-decoration: none;
 }
+nav a:hover {
+    color: #FFFFFF;
+}
 nav {
     padding-right: 2rem;
     display:  flex;
