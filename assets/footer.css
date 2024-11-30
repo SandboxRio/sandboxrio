@@ -1,0 +1,91 @@
+/* Adicione este link ao <head> do seu HTML para importar a fonte */
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+footer {
+    background-color: #fff;
+    font-family: verdana;
+    color: #9E72B0;
+    box-sizing: border-box;
+    padding-top: 0; /* Espaçamento interno para o footer */
+    padding-bottom: 0;
+    position: relative;
+	font-family: 'Roboto', sans-serif; /* Aplica a nova fonte */
+}
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0vh 30vw;
+    text-align: center;
+	color: #9E72B0;
+}
+
+h4 {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0.6em 0;
+}
+.newsletter-container {
+  display: flex;
+  flex-direction: column; /* Para que os elementos fiquem em coluna */
+  align-items: center; /* Para centralizar os elementos */
+  margin: 20px 0; /* Espaçamento acima e abaixo da seção */
+  color: #909090;
+}
+
+.newsletter-input-container {
+  display: flex; /* Para alinhar o input e o botão lado a lado */
+  align-items: center; /* Alinhamento vertical no centro */
+}
+
+.newsletter-input {
+  padding: 15px; /* Espaçamento interno */
+  margin-right: 10px; /* Espaçamento à direita */
+  width: 250px; /* Largura do campo de input */
+  border-radius: 30px; /* Arredondar as bordas */
+  border: 3px solid #ccc; /* Borda suave */
+  font-size: 1em; /* Tamanho da fonte */
+  color: #333; /* Cor do texto (cinza escuro) */
+}
+
+.newsletter-button {
+  padding: 15px 30px; /* Espaçamento interno do botão */
+  cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+  border-radius: 30px; /* Arredondar as bordas do botão */
+  border: 3px solid #ccc; /* Borda cinza clara */
+  background-color: #ccc; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão (cinza escuro) */
+  font-weight: 500; /* Peso da fonte */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.newsletter-button:hover {
+  background-color: #9E72B0; /* Cor do botão ao passar o mouse */
+  color: white; /* Cor do texto ao passar o mouse */
+  border-color: #9E72B0; /* Borda roxa ao passar o mouse */
+}
+.newsletter-button:active {
+  background-color: green; /* Cor do botão ao passar o mouse */
+  color: white; /* Cor do texto ao passar o mouse */
+  border-color: green; /* Borda roxa ao passar o mouse */
+}
+/* Classe que será adicionada após o clique */
+
+
+
+.clicked {
+  background-color: green; /* Cor estável após o clique */
+}
+
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 970px) {
+    .itens-footer {
+        margin: 0.2em 2em;
+        font-size: 0.7em;
+    }
+}

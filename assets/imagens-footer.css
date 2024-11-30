@@ -1,0 +1,55 @@
+.imagens-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.imagens-footer {
+  max-height: 50px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 0.8em;
+  color: #909090;
+}
+
+.email-footer, .endereco-footer {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#logo-sandbox-footer {
+  max-height: 25px;
+}
+
+.contato-container .material-icons {
+  margin-right: 1px;
+  font-size: 2em;
+}
+
+.barra-roxa {
+  background-color: #9E72B0;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+/* Media query para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+  .imagens-footer {
+    max-height: 30px; /* Diminui a altura para telas menores */
+    margin-bottom: 20px; /* Ajusta o espaçamento inferior */
+  }
+}

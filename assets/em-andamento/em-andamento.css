@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    color: black;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+    width: 900px;
+}
+section li {
+    list-style-type: none;
+    margin-top: 1em;
+}
+li button {
+    height: 40px;
+}
+
+.documentos-selecao:hover {
+    background-color: #8967AA;
+    transition: 0.2s;
+    color: white
+}
+.icone-botao {
+    font-size: 40px !important;
+}
+
+.step-bar {
+    margin: 0 6vw;
+}
+
+.titulo-texto {
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.decoracao-titulo {
+    top: 10px;
+    width: 65px;
+    height: 10px;
+    margin: 0 3vw;
+    background-color: #8967AA;
+}
+h1{
+    font: normal normal bold 50px/1.4em raleway,sans-serif;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    color: grey;
+	text-transform: uppercase;
+}
+h3 {
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    margin: 20px;
+    text-align: center;
+    font-family: raleway,sans-serif;
+    color: #959595;
+    margin-bottom: 35px;
+}
+
+.secao-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.imagem-projeto {
+    width: 32vw;
+    height: 29vw;
+    display: block;
+    object-fit: cover;
+}
+.projetos-andamento {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.wrapper-imagem {
+    width: 32vw;
+    height: 29vw;
+    position: relative;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.overlay-text {
+    opacity: 0;
+    color: white;
+    top: 0;
+    position: absolute;
+}
+
+.overlay:hover {
+    background-color: #8967AA;
+    opacity: 0.7;
+    transition: all .3s ease;
+}
+.overlay:hover h3 {
+    opacity: 1;
+}
+
+.mapa-container {
+  width: 100%; /* Ocupa a largura total do contêiner */
+  max-width: 1080px; /* Limita a largura máxima */
+  margin: 0 auto; /* Centraliza o mapa */
+}
+
+.mapa-frame {
+  width: 100%; /* O iframe ocupa 100% da largura do contêiner */
+  height: 100vw; /* Altura proporcional à largura da viewport */
+  max-height: 600px; /* Define um limite de altura */
+  border: 0; /* Remove bordas do iframe */
+}
+
+@media (max-width: 690px) {
+
+    section {
+        margin-top: 70px;
+    }
+
+    .ciclo-chamadas img {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .image__title {
+        font-size: 1rem !important;
+        font-weight: bold;
+    }
+
+    .image__description {
+        font-size: 0.75em !important;
+        margin-top: 0.25em;
+    }
+    .secao-imagens {
+        margin-bottom: 2vh;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.85em;
+    }
+
+    .titulo-texto {
+        padding-bottom: 0;
+    }
+
+    #lista-editais {
+        padding: 0;
+    }
+    .decoracao-titulo {
+        top: 10px;
+        width: 1.5rem;
+        height: 0.4rem;
+        background-color: #8967AA;
+    }
+
+}

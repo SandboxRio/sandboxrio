@@ -1,0 +1,111 @@
+html, 
+body {
+    margin:0;
+    padding: 0;
+    position: relative;
+
+    height: calc(100vh + 90px);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial,helvetica;
+    color: #fff;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+
+	
+}
+
+body section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+
+}
+
+section video {
+    height: 445px; 
+    overflow: hidden; 
+    width: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+	position: absolute;
+	top:85px;
+	
+	
+}
+
+video {
+  filter: hue-rotate(400deg) 
+  contrast(1.5);
+  
+}
+
+#logo-smdeis{
+    -webkit-animation-delay: -8s;
+}
+#logo-sandbox{
+    -webkit-animation-delay: -12s;
+}
+
+.logo-video {
+    width: 40vw;
+    left: 30vw;
+    position: absolute;
+}
+
+html, body {
+    border: 0;
+    margin: 0;
+}
+	
+#logos img {
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+	 top: 40%; /* Posiciona a div no centro vertical da página */
+	 left: 50%; /* Posiciona a div no centro horizontal da página */
+	 transform: translate(-50%, -50%); /* Ajusta a posição para exatamente o centro */   
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+@media (max-width: 970px) {
+    section {
+
+    }
+    .logo-video {
+        width: 80vw;
+        left: 10vw;
+		top
+    }
+    body {
+        height: calc(100vh + 110px);
+    }
+}
