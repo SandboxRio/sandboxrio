@@ -51,5 +51,8 @@
   .imagens-footer {
     max-height: 30px; /* Diminui a altura para telas menores */
     margin-bottom: 20px; /* Ajusta o espaçamento inferior */
+    margin-left:20
   }
+  #logo-sandbox-footer {
+  max-height: 20px;
 }
