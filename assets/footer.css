@@ -89,3 +89,7 @@ h4 {
         font-size: 0.7em;
     }
 }
+@media (max-width: 600px) {
+    .newsletter-container {
+        width: 80%; /* Reduz a largura para 80% */
+        margin: 10% auto; /* Ajusta a margem proporcional */}}
