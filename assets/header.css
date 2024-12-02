@@ -137,7 +137,7 @@ header img {
         border: none;
         align-self: center;
         background: none;
-        height: 80px;
+        height: 65px;
         width: 50px;
     }
 
@@ -158,4 +158,7 @@ header img {
 	.dropdown:hover .dropdown-content {
         display: none !important; /* Garante que o hover não funcione */
     }
+	header img {
+	padding-bottom: 1.2em;
+	}
 }
