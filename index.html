@@ -131,9 +131,14 @@
   <div class="newsletter-container">
     <h4>Inscreva-se na nossa newsletter:</h4>
     <div class="newsletter-input-container">
-      <input type="email" placeholder="Seu e-mail" class="newsletter-input" required />
-      <button class="newsletter-button">Inscrever-se</button>
-    </div>
+  <form id="newsletterForm" action="https://formspree.io/f/xldeaqnb" method="post">
+    <input type="email" placeholder="Seu e-mail" class="newsletter-input" name="email" required />
+    <button class="newsletter-button">Inscrever-se</button>
+  </form>
+</div>
+<div id="success-message" style="display:none; color: green;">
+    <p>Seu e-mail foi enviado com sucesso! Obrigado por se inscrever.</p>
+  </div>
   </div>
 
   <div class="imagens-container">
@@ -148,6 +153,34 @@
     </h4>
   </div>
 <script src="assets/header.js"></script>
+<script>
+  // Obtém o formulário com o ID correto
+  const form = document.getElementById('newsletterForm');
+  const successMessage = document.getElementById('success-message'); // A div da mensagem de sucesso
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+
+    // Usando fetch para enviar o formulário sem redirecionar
+    fetch('https://formspree.io/f/xldeaqnb', {
+      method: 'POST',
+      body: new FormData(form),
+      mode: 'no-cors'
+    })
+    .then(response => {
+      // Exibe a mensagem de sucesso após o envio
+      successMessage.style.display = 'block';
+
+      // Opcional: Você pode esconder a mensagem depois de um tempo
+      setTimeout(function() {
+        successMessage.style.display = 'none';
+      }, 5000); // A mensagem desaparece após 5 segundos
+    })
+    .catch(error => {
+      console.error('Erro:', error);
+    });
+  });
+</script>
 </footer>
 
   </body>
