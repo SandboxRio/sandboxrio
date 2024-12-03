@@ -280,7 +280,7 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
-    width:80%;
+    width:90%;
 }
 
 .publicacao-titulo {
@@ -415,6 +415,8 @@ a {
     #noticia-container {
         margin: 5vh 6vw;
 	width:80%;
+	    align-content:center;
+	    align-items:center;
     }
     #lista-publicacoes {
         margin: 5vh 6vw;
