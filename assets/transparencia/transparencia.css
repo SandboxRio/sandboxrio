@@ -413,7 +413,7 @@ a {
 }
 @media (max-width: 690px) {
     #noticia-container {
-        margin: 5vh 6vw;
+        margin: 5vh0;
 	width:80%;
 	    align-content:center;
 	    align-items:center;
