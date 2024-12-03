@@ -122,6 +122,9 @@ header img {
         margin: 20px;
         border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     }
+	nav a {
+		font-weight: 600; font-size:20px
+	}
 
     .active {
         height: calc(100vh - 70px);
