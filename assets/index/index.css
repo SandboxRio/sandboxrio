@@ -75,9 +75,7 @@ html, body {
     animation-name: fade;
     animation-iteration-count: infinite;
     animation-duration: 8s;
-	 top: 55%; /* Posiciona a div no centro vertical da página */
-	 left: 50%; /* Posiciona a div no centro horizontal da página */
-	 transform: translate(-50%, -50%); /* Ajusta a posição para exatamente o centro */   
+	 transform: translate(0, -130%);   
 }
 
 @-webkit-keyframes fade {
