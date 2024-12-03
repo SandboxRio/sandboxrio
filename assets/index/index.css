@@ -75,7 +75,8 @@ html, body {
     animation-name: fade;
     animation-iteration-count: infinite;
     animation-duration: 8s;
-	 transform: translate(0, -130%);   
+	 transform: translate(0, -130%);
+	filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.5));
 }
 
 @-webkit-keyframes fade {
