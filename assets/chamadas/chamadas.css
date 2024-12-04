@@ -109,6 +109,7 @@ h1{
     border-radius: 5px;
     height: fit-content;
     box-sizing: border-box;
+    
 }
 
 .titulo-card-faq {
@@ -215,9 +216,8 @@ h1{
     h1{
         font-size: 2.5em;
     }
-    p {
-        font-size: 0.85em;
-    }
+    .card-faq p {
+    font-weight:400px;
 
     #lista-editais {
         padding: 0;
