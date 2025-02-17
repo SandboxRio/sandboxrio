@@ -196,7 +196,7 @@ p {
         opacity: 0.5;
         width: 100%;
         /* Set a specific height */
-        min-height: 500px; 
+        min-height: 300px; 
         
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -217,7 +217,7 @@ p {
         opacity: 0.5;
         width: 100%;
         /* Set a specific height */
-        min-height: 500px; 
+        min-height: 200px; 
         object-fit: cover;
         background-position: center;
         /* Create the parallax scrolling effect */
@@ -246,4 +246,9 @@ p {
     }
    .margemcelular {
     padding: 4vh 10vw 0vh 10vw !important;
+    }
+	.imagem-centralizada {
+    display: block;
+    margin: auto;
+	width: 85%; /* Ajuste conforme necessário */
     }
