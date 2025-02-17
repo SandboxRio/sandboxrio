@@ -208,10 +208,10 @@ p {
 
 @media (max-width: 690px) {
     h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     p {
-        font-size: 0.95rem;
+        font-size: 1.1rem;
     }
     .parallax {
         opacity: 0.5;
@@ -241,3 +241,9 @@ p {
 	#div-ciclo-como-funciona img {
 	width:100%;
 }
+    .titulo-texto {
+    padding: 4vh 10vw 0vh 10vw;
+    }
+   .margemcelular {
+    padding: 4vh 10vw 0vh 10vw;
+    }
