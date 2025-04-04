@@ -6,21 +6,41 @@ a {
 .botao {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
   background-color: white;  /* Cor de fundo branca no estado normal */
   color: #8967AA;  /* Cor do ícone e do texto */
   padding: 10px 20px;
   border: none;  /* Sem borda no estado normal */
   border-radius: 10px;  /* Bordas arredondadas com raio de 10px */
-  font-size: 18px;  /* Fonte um pouco maior */
+  font-size: 18px;  /* Fonte maior */
   font-weight: bold;  /* Fonte em negrito */
   letter-spacing: 0.05em;  /* Espaçamento entre as letras */
   transition: all 0.3s ease; /* Transição suave para os efeitos de hover/click */
   width: max-content; /* Ajusta o tamanho do botão ao conteúdo */
+  margin: 10px 0; /* Espaçamento entre os botões */
 }
 
 .botao .material-icons {
   margin-right: 8px;  /* Espaço entre o ícone e o texto */
+}
+
+/* Responsividade para telas menores (máximo 970px) */
+@media (max-width: 970px) {
+  .botao {
+    width: 100%; /* Ajusta o botão para ocupar toda a largura disponível */
+    padding: 10px; /* Aumenta o padding para tornar o botão mais acessível */
+    font-size: 16px; /* Diminui o tamanho da fonte um pouco */
+    text-align: left; /* Alinha o conteúdo do botão à esquerda */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho do botão */
+  }
+
+  .botao .material-icons {
+    font-size: 20px; /* Ajusta o tamanho do ícone para telas menores */
+  }
+  
+  .botao .texto {
+    font-size: 16px; /* Ajusta o tamanho do texto para telas menores */
+  }
 }
 
 .botao:hover,
@@ -38,3 +58,4 @@ a {
 .botao:hover .texto,
 .botao:active .texto {
   color: white; /* Cor do texto ao passar o mouse ou ao clicar */
+}
