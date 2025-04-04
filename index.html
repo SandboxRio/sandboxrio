@@ -87,46 +87,22 @@
         <img id="logo-sandbox" class="logo-video" src="assets/sandbox_branco.png" />
       </div>
 	  </section> 
-	  <!--
-	   <div> <hr style=" margin-top: 50px;" class="linha-titulo"> </div>
 	  
- <section style=" margin-top: 0px;" id="noticias-publicacoes">
-  <div class="itens-publicacoes">
-    <div class="item">
-      <a href="https://www.academia.edu/110657660/Sandbox_regulat%C3%B3rio_instrumento_experimentalista_%C3%A0_disposi%C3%A7%C3%A3o_da_Administra%C3%A7%C3%A3o_P%C3%BAblica_local_como_suporte_ao_desenvolvimento_econ%C3%B4mico_1" class="data">11.10.2024
-      <h3>Título da Notícia 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a>
-    </div>
-    <div class="item">
-      <a class="data">11.10.2024</a>
-      <h3>Título da Notícia 2</h3>
-      <p>Phasellus auctor dictum ante vitae laoreet.</p>
-    </div>
-    <div class="item">
-      <a class="data">11.10.2024</a>
-      <h3>Título da Notícia 3</h3>
-      <p>Aenean condimentum felis eget faucibus congue.</p>
-    </div>
-    <div class="item">
-      <a class="data">11.10.2024</a>
-      <h3>Título da Notícia 4</h3>
-      <p>Curabitur tempus est neque, aliquet lobortis nibh gravida.</p>
-    </div>
-  </div>
-</section>
-
- <hr style="margin-bottom: 80px; margin-top:15px"class="linha-titulo">
-
--->
+	 <!-- Banner -->
+    <div style="text-align: center; margin: 20px 0;">
+  <a href="consulta_patineterio.html">
+    <img src="assets/banner.png" alt="Banner" />
+  </a>
+</div>
 	  
 <footer>
-  <div class="newsletter-container">
+  <!--<div class="newsletter-container">
     <h4>Inscreva-se na nossa newsletter:</h4>
     <div class="newsletter-input-container">
   <input type="email" id="emailInput" placeholder="Seu e-mail" class="newsletter-input" required />
   <button class="newsletter-button" id="submitButton">Inscrever-se</button>
 </div>
-<!-- <div id="success-message" style="display:none; color: green;">
+ <div id="success-message" style="display:none; color: green;">
     <p>Enviado!</p>
   </div> -->
   </div>
@@ -143,47 +119,7 @@
     </h4>
   </div>
 <script src="assets/header.js"></script>
-<!-- <script>
-  // Obtém os elementos necessários
-  const emailInput = document.getElementById('emailInput');
-  const submitButton = document.getElementById('submitButton');
-  const successMessage = document.getElementById('success-message');
 
-  submitButton.addEventListener('click', function(event) {
-    event.preventDefault(); // Impede o comportamento padrão do botão
-
-    // Verifica se o e-mail foi preenchido
-    const email = emailInput.value;
-    if (email === '') {
-      alert('Por favor, insira um e-mail válido.');
-      return;
-    }
-
-    // Cria um FormData manualmente
-    const formData = new FormData();
-    formData.append('email', email);
-
-    // Envia os dados usando fetch com 'no-cors'
-    fetch('https://formspree.io/f/xldeaqnb', {
-      method: 'POST',
-      body: formData,
-      mode: 'no-cors'
-    })
-    .then(() => {
-      // Exibe a mensagem de sucesso após o envio
-      successMessage.style.display = 'block';
-
-      // Opcional: Esconde a mensagem depois de 5 segundos
-      setTimeout(function() {
-        successMessage.style.display = 'none';
-      }, 5000);
-    })
-    .catch(error => {
-      console.error('Erro:', error);
-      alert('Houve um erro ao enviar o formulário. Tente novamente.');
-    });
-  });
-</script> -->
 </footer>
 
   </body>
