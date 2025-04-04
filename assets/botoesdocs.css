@@ -1,0 +1,40 @@
+/* Resetando a aparência do link */
+a {
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;  /* Cor de fundo branca no estado normal */
+  color: #8967AA;  /* Cor do ícone e do texto */
+  padding: 10px 20px;
+  border: none;  /* Sem borda no estado normal */
+  border-radius: 10px;  /* Bordas arredondadas com raio de 10px */
+  font-size: 18px;  /* Fonte um pouco maior */
+  font-weight: bold;  /* Fonte em negrito */
+  letter-spacing: 0.05em;  /* Espaçamento entre as letras */
+  transition: all 0.3s ease; /* Transição suave para os efeitos de hover/click */
+  width: max-content; /* Ajusta o tamanho do botão ao conteúdo */
+}
+
+.botao .material-icons {
+  margin-right: 8px;  /* Espaço entre o ícone e o texto */
+}
+
+.botao:hover,
+.botao:active {
+  background-color: #8967AA; /* Cor de fundo ao passar o mouse ou ao clicar */
+  color: white; /* Cor do ícone e texto ao passar o mouse ou ao clicar */
+  border: 2px solid #8967AA;  /* Borda roxa apenas ao passar o mouse ou ao clicar */
+}
+
+.botao:hover .material-icons,
+.botao:active .material-icons {
+  color: white; /* Cor do ícone ao passar o mouse ou ao clicar */
+}
+
+.botao:hover .texto,
+.botao:active .texto {
+  color: white; /* Cor do texto ao passar o mouse ou ao clicar */
